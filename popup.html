@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LinkedIn Auto Apply</title>
+  <style>
+    body {
+      width: 320px;
+      font-family: Arial, sans-serif;
+      padding: 12px;
+      line-height: 1.4;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    button {
+      background-color: #0077b5;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #006097;
+    }
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    .status {
+      margin-top: 10px;
+      padding: 12px;
+      border-radius: 4px;
+      background-color: #f3f6f8;
+      border-left: 4px solid #0077b5;
+      font-size: 14px;
+    }
+    .setting {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 0;
+    }
+    .note {
+      font-size: 12px;
+      color: #666;
+      margin-top: 10px;
+      background-color: #fffde7;
+      padding: 8px;
+      border-radius: 4px;
+      border-left: 4px solid #ffd600;
+    }
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      background-color: #e8f5e9;
+      padding: 12px;
+      border-radius: 4px;
+      margin-top: 6px;
+      font-weight: bold;
+    }
+    input[type="number"] {
+      width: 60px;
+      text-align: center;
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    h2 {
+      color: #0077b5;
+      margin-top: 0;
+    }
+    .divider {
+      height: 1px;
+      background-color: #eee;
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>LinkedIn Auto Apply</h2>
+  <div class="container">
+    <div class="setting">
+      <label for="maxApps"><strong>Max applications:</strong></label>
+      <input type="number" id="maxApps" min="1" max="100" value="10">
+    </div>
+    <div class="setting">
+      <label for="delay"><strong>Delay between apps (sec):</strong></label>
+      <input type="number" id="delay" min="3" max="30" value="5">
+    </div>
+    <div class="setting">
+      <label><strong>Only Easy Apply:</strong></label>
+      <input type="checkbox" id="onlyEasyApply" checked>
+    </div>
+    
+    <div class="divider"></div>
+    
+    <button id="startApply">Start Auto Apply</button>
+    <button id="stopApply" disabled>Stop Auto Apply</button>
+    
+    <div class="status" id="status">Ready to start</div>
+    
+    <div class="stats">
+      <span>Applications Submitted:</span>
+      <span id="appliedCount">0</span>
+    </div>
+    
+    <div class="note">
+      <strong>Important:</strong> Make sure you're already on a LinkedIn jobs page with your desired filters before starting.
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

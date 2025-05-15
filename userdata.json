@@ -1,0 +1,36 @@
+{
+  "name": "Alex Morgan",
+  "email": "alex.morgan@example.com",
+  "phone": "5551234567",
+  "website": "www.alexmorgan.com",
+  "address": "123 Tech Street, San Francisco, CA 94105",
+  "experience": "5+ years",
+  "education": "Bachelor's Degree",
+  "skills": ["JavaScript", "Python", "React", "Node.js", "TypeScript", "AWS", "MongoDB"],
+  "languages": ["English", "Spanish"],
+  "workAuthorization": "US Citizen",
+  "desiredSalary": "95000",
+  "resumeLink": "https://drive.google.com/resumelink",
+  "linkedin": "https://linkedin.com/in/alexmorgan",
+  "willRelocate": true,
+  "yearsOfExperience": "5",
+  "customAnswers": {
+    "Why do you want to work here?": "I'm interested in joining your company because of its innovative approach to technology solutions and commitment to growth. My background in web development and cloud architecture aligns perfectly with your company's focus, and I believe I can contribute significantly to your technical initiatives.",
+    
+    "Describe your leadership style": "I lead by example and emphasize collaboration. I believe in giving team members autonomy while providing clear direction and support. I focus on fostering a positive environment where everyone feels empowered to share ideas and take ownership of their work.",
+    
+    "What are your strengths?": "My key strengths include problem-solving, adaptability, and strong communication. I excel at breaking down complex technical challenges into manageable tasks and finding efficient solutions. I'm also quick to learn new technologies and can effectively explain technical concepts to non-technical stakeholders.",
+    
+    "What are your weaknesses?": "I sometimes focus too intensely on perfecting details, which can impact my efficiency. I've been addressing this by setting clearer priorities, defining what 'done' looks like for each task, and implementing time-boxing techniques to ensure I maintain a good balance between quality and productivity.",
+    
+    "How do you handle stress?": "I manage stress by maintaining organized systems, breaking larger projects into smaller milestones, and practicing regular reflection. When facing tight deadlines, I focus on prioritization and clear communication with stakeholders to manage expectations effectively.",
+    
+    "Tell us about a challenging project": "Recently, I led the migration of a legacy system to a modern cloud architecture. The main challenges included maintaining data integrity and minimizing downtime. I developed a comprehensive migration strategy with phased implementation, created detailed documentation, and conducted thorough testing at each stage. The project was completed ahead of schedule with zero data loss.",
+    
+    "Why are you leaving your current position?": "I'm seeking new challenges and opportunities for growth that align with my career goals in full-stack development. While I've learned a great deal in my current role, I'm looking for an environment where I can further develop my skills in cloud architecture and contribute to innovative projects.",
+    
+    "Where do you see yourself in 5 years?": "In five years, I aim to have deepened my technical expertise while developing leadership skills. I see myself taking on more responsibility in architecture decisions and possibly leading a small team. I'm committed to continuous learning and want to be recognized as a subject matter expert in my field while helping to mentor newer developers.",
+    
+    "How do you stay updated with industry trends?": "I regularly follow technology blogs, participate in online communities like Stack Overflow and GitHub, and attend virtual conferences. I also dedicate time each week to learning through courses on platforms like Coursera and Udemy. Additionally, I'm part of several developer meetup groups where we discuss new technologies and share experiences."
+  }
+}
